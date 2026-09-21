@@ -36,7 +36,7 @@ layoffs-data-project/
 │       └── layoffs.csv
 │   
 ├── sql/
-│   ├── layoffs_project_date_cleaning.sql
+│   ├── layoffs_project_data_cleaning.sql
 │   └── layoffs_data_analysis.sql
 ├── README.md
 └── .gitignore
@@ -76,7 +76,7 @@ The analysis script answers questions such as:
 
 1. Create a database in MySQL.
 2. Import the raw dataset into a table.
-3. Run `sql/layoffs_project_date_cleaning.sql` to create and clean the staging table.
+3. Run `sql/layoffs_project_data_cleaning.sql` to create and clean the staging table.
 4. Run `sql/layoffs_data_analysis.sql` to explore the cleaned data.
 
 ## Key skills demonstrated
